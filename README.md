@@ -4,8 +4,6 @@
 
 This is a real-time satellite operations system built for the ANT61 Beacon hackathon challenge. The system allows satellite operators to monitor their fleet for two critical orbital threats: conjunction events (potential collisions with debris) and coronal mass ejections (solar storms that can destroy electronics). It uses real external data sources to detect threats and provides actionable recommendations that operators can execute with a single click.
 
-The entire application is built with React, TypeScript, and Three.js, styled in a minimalist black and white interface that looks like something out of a sci-fi control room.
-
 ---
 
 ## How It Meets The Hackathon Requirements
