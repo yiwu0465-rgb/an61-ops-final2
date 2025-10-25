@@ -1,4 +1,4 @@
-// orbit view component - 3d visualization of satellites around earth using three.js
+// orbit view component -> 3d visualization of satellites around earth using three.js
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere } from "@react-three/drei";
 import { useStore } from "../store";
@@ -51,7 +51,7 @@ export function OrbitView() {
             const r = 1 + (sat.semiMajorAxisKm - 6371) / 6371;
             
             // distribute satellites evenly around earth in 2d circle
-            // (simplified view - real orbits would need inclination/eccentricity)
+            // (simplified view -> real orbits would need inclination/eccentricity)
             const angle = (i / satellites.length) * 2 * Math.PI;
             const x = r * Math.cos(angle);
             const y = r * Math.sin(angle);

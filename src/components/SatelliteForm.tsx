@@ -1,4 +1,4 @@
-// satellite form component - allows manual satellite entry or bulk loading from tle api
+// satellite form component -> allows manual satellite entry or bulk loading from tle api
 import { useState } from "react";
 import { useStore } from "../store";
 import type { Satellite } from "../types";

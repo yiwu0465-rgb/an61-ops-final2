@@ -1,4 +1,4 @@
-// action log panel component - displays a chronological list of all executed actions
+// action log panel component -> displays chronological list of all executed actions
 import { useStore } from "../store";
 
 export function ActionLogPanel() {
